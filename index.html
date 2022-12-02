@@ -15,7 +15,33 @@
     padding-left: 20px; 
     padding-right: 20px;  
 } 
- .intro__title {
+.intro__title {
+  color: #3c3840;
+  font-size: 75px;
+  font-weight: 500;
+  font-family: 'Porcelain Sans Serif', cursive;
+  line-height: 1;
+}
+.white {
+  color: #fff;
+}
+.darkgrey{
+  color: #3c3840;
+}
+.intro__subtitle { 
+  color: #3c3840;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Porcelain Sans Serif', cursive;
+  line-height: 1;
+}
+.white {
+  color: #fff;
+}
+.darkgrey{
+  color: #483263;
+}
+ .intro__text {
   color: #3c3840;
   font-size: 15px;
   font-weight: 500;
@@ -31,8 +57,10 @@
 </style> 
 </head> 
 <body> 
- 
+    
+ <ul class="intro__title">
 <h1><center>glow.</center></h1>  
+     <ul class="intro__subtitle">
    <h2><center>Український бренд функціональної косметики</center></h2>
  
 <ul class="nav"> 
@@ -44,7 +72,7 @@
             
 </ul> 
     <p><div class="logo"><center><img width="600" src="data:image/png;base64,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" alt="Фото"></center></div>   
-<ul class="intro__title">
+<ul class="intro__text">
     glow. – це про ретельно відібрані на будь-який смак і запит косметичні засоби: від функціональних з активними компонентами до яскравих, ароматних і подарункових. Додайте до цього зручний інтерфейс, швидку доставку та систему лояльності – вийде ідеальний косметичний бутік. На сайті glow.in.ua представлені бренди різних цінових діапазонів, що означає знайти свій ідеальний засіб можна менше, ніж за 100 гривень. Ми весь час поповнюємо асортимент бюджетними новинками, щоб кожна дівчина могла вдосталь експериментувати з косметикою.</h1>
  </ul>
 </body> 
