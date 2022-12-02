@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Lato', cursive;
+    font-family: 'Amatic SC', cursive;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.6;
@@ -26,7 +26,7 @@ hr {
     border: 0;
     margin: 40px 0;
 
-    background-color: #5c458a;
+    background-color: #79a9bf;
 
 }
 
@@ -63,22 +63,22 @@ text-align: center;
 
 
 .intro__title {
-    color: #3c3840;
+    color: #fff;
     font-size: 175px;
     font-weight: 500;
-    font-family: 'Porcelain Sans Serif', cursive;
+    font-family: 'Amatic SC', cursive;
     line-height: 1;
 }
 .white {
     color: #fff;
 }
 .darkgrey{
-    color: #3c3840;
+    color: #1E1E1E;
 }
 
 .intro__subtitle { 
     margin-bottom: 20px;
-    color: #6d5e91;
+    color: #B5351D;
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
@@ -130,7 +130,7 @@ position: relative;
 
 
 
-color: #3c3840;
+color: #1E1E1E;
 font-weight: 600;
 text-decoration: none;
 transition: color .1s linear;
@@ -142,7 +142,7 @@ display: block;
 width: 100%;
 height: 2px;
 
-background-color: #5c458a;
+background-color: #B5351D;
 opacity: 0;
 
 position: absolute;
@@ -155,7 +155,7 @@ transition: opacity .1s linear;
 }
 
 .nav__link:hover {
-    color:#5c458a
+    color:#B5351D
 }
 
 .nav__link:hover:after {
@@ -209,7 +209,7 @@ transition: opacity .1s linear;
 .section__title {
     font-size: 40px;
     color: #B5351D;
-    font-family: 'Lato', cursive;
+    font-family: 'Amatic SC', cursive;
 
 }
 
@@ -220,7 +220,7 @@ transition: opacity .1s linear;
     height: 2px;
     margin: 10px auto 30px;
 
-    background-color: #3c3840;
+    background-color: #1E1E1E;
 
 }
 
@@ -228,7 +228,7 @@ transition: opacity .1s linear;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #6e6680;
+    color: #776F6F;
 
 }
 
@@ -245,7 +245,7 @@ transition: opacity .1s linear;
     width: 375px;
     position: relative;
     
-    background-color: ##6d5e91;
+    background-color: #94BDD0;
 }
 
 .entry__item:hover .entry__img {
@@ -263,7 +263,7 @@ transition: opacity .1s linear;
 }    
 
 .entry__img {
-    background: linear-gradient(to bottom,#6d5e91, #3c3840);
+    background: linear-gradient(to bottom,#79a9bf, #B5351D);
 
     transition: transform .2s linear;
 }
