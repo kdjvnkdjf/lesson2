@@ -1,0 +1,101 @@
+.logo
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40%;
+    height: 200px;
+}
+
+.title
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40%;
+    font-family: 'Porcelain Sans Serif', cursive;
+    font-size: 55px;
+    
+}
+
+.list
+{
+    background-color: #a584bf;
+    block-size: 60px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.list li
+{
+    list-style: none;
+    display: inline-block;
+    text-align:justify;
+    font-family: 'Lato';
+}
+
+.list li a 
+{
+    display: inline-block;
+    width: calc(20%-2px);
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: white;
+}
+
+.list li a:hover{
+    text-decoration: underline;
+    border: 1px solid;
+}
+
+nav>ul>li 
+{
+    flex-flow: justify;
+    text-align: center;
+}  
+
+nav ul li a 
+{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    height: 40px;
+    width: (20%-4px);
+}  
+
+nav ul li a:hover 
+{
+    background-color: whitesmoke;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+  
+nav ul ul 
+{
+    display: none;
+    position: absolute;
+}
+  
+nav ul li:hover ul 
+{
+    display: block;
+    height: 20px;
+    width: (20%-4px);
+  }
+
+  .left
+{
+    display: inline-block;
+    width: 20%;
+}
+
+.right
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7%;
+    width: calc(55% - 2px);
+    line-height: 18px;
+}
